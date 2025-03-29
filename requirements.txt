@@ -2,7 +2,7 @@ aiofiles
 aiohttp
 asyncio
 beautifulsoup4
-dnSpotifython
+dnspython
 ffmpeg-python
 gitpython
 hachoir

@@ -115,7 +115,7 @@ async def get_thumb(videoid):
         name_font = ImageFont.truetype("Spotify/assets/font.ttf", 30)
         para = textwrap.wrap(title, width=30)
         j = 0
-        draw.text((5, 5), f"SpotifyXDil", fill="white", font=name_font)
+        draw.text((5, 5), f"Spotify", fill="white", font=name_font)
         for line in para:
             if j == 1:
                 j += 1

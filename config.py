@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH", "988a9111105fd2f0c5e21c2c2449edfd")
 
 BOT_TOKEN = getenv("BOT_TOKEN","7026867682:AAGk_b_klZR2hLxS6ury3sas1eJIChVuuP8")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ashiku:ashachiku123@cluster0.wu7maqj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 

@@ -1,4 +1,3 @@
-
 import asyncio
 import os
 import re
@@ -9,8 +8,8 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from Spy.utils.database import is_on_off
-from Spy.utils.formatters import time_to_seconds
+from Spotify.utils.database import is_on_off
+from Spotify.utils.formatters import time_to_seconds
 
 async def shell_cmd(cmd):
     proc = await asyncio.create_subprocess_shell(
